@@ -1,0 +1,4 @@
+include irca_flask_serv/schema.sql
+graft irca_flask_serv/static
+graft irca_flask_serv/templates
+global-exclude *.pyc
