@@ -1,8 +1,9 @@
 <!doctype html>
-<title>{% block title %}{% endblock %} - Flaskr</title>
+<title>{% block title %}{% endblock %} - Globe Chats</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 <nav>
-  <h1>Global Relay Chat</h1>
+  <h1>Globe Chats</h1>
   <ul>
     {% if g.user %}
       <li><span>{{ g.user['username'] }}</span>
